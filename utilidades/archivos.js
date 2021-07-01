@@ -11,6 +11,7 @@ const guardarSaludo = (nombre) => {
       if (err) {
         console.log(error("¡Algo ha salido mal!"));
       }
+      process.exit(1);
     }
   );
 };
